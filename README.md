@@ -24,7 +24,7 @@ pip install twcollect
 
 ## Usage
 
-Create a credential file with the following format:
+Create a credentials file with the following format:
 
 ```yml
 twitter_token: "<TWITTER_BEARER_TOKEN>"
