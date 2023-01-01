@@ -20,7 +20,9 @@ A longer description of your project goes here...
 
 ## Installation
 
-pip
+```
+pip install twcollect
+```
 
 ## Usage
 
