@@ -16,8 +16,6 @@
 
 > Simple CLI to collect data from the Twitter stream API
 
-A longer description of your project goes here...
-
 ## Installation
 
 ```
