@@ -10,7 +10,7 @@
 -->
 
 
-# Twitter-Collect command-line interface: `twcollect`
+# TwCollect
 
 [![PyPI-Server](https://img.shields.io/pypi/v/twcollect.svg)](https://pypi.org/project/twcollect/)
 [![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
