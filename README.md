@@ -35,8 +35,16 @@ twitter_token: "<TWITTER_BEARER_TOKEN>"
 The collection can be started by calling the `twcollect` module.
 
 ```shell
-python -m twcollect
+python -m twcollect output_folder
 ```
+
+Or by using the Docker image (note we are mounting the `credentials.yml` and `output_folder` in the container):
+
+```shell
+docker run --rm -v $(pwd)/credentials.yml:/credentials.yml -v $(pwd)/output_folder/:/output_folder/ ghcr.io/smassonnet/twcollect:<VERSION> /output_folder
+```
+
+Note that you need to replace `<VERSION>` by the latest available version of `twcollect`.
 
 Please see the help for more options:
 
